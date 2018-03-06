@@ -1,0 +1,19 @@
+html {
+    background-color: #edf7e1
+}
+
+.centereddiv {
+    background-color: #d8d6d6;
+    position: absolute;
+    border: 1px solid black;
+    width: 530px;
+    height: 740px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%); /*chrome compatability*/
+    -moz-transform: translate(-50%, -50%); /*for firefox*/
+    -o-transform: translate(-50%, -50%); /*for opera*/
+    -ms-transform: translate(-50%, -50%); /*internet explorer/edge*/
+    
+}

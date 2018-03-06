@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<billDetails>
+  <Bills>
+    <Name>James</Name>
+    <Room>The Lir Suite</Room>
+    <Adults>1</Adults>
+    <Children>1</Children>
+    <CheckIn>21 March, 2018</CheckIn>
+    <CheckOut>23 March, 2018</CheckOut>
+    <Discount>€10</Discount>
+    <Price>70</Price>
+  </Bills>
+  <Bills>
+    <Name>John</Name>
+    <Room>The Tara Suite</Room>
+    <Adults>1</Adults>
+    <Children>0</Children>
+    <CheckIn>18 March, 2018</CheckIn>
+    <CheckOut>19 March, 2018</CheckOut>
+    <Discount>€0</Discount>
+    <Price>30</Price>
+  </Bills>
+  <Bills>
+    <Name>Amy</Name>
+    <Room>The Kells Suite</Room>
+    <Adults>2</Adults>
+    <Children>2</Children>
+    <CheckIn>28 March, 2018</CheckIn>
+    <CheckOut>30 March, 2018</CheckOut>
+    <Discount>€20</Discount>
+    <Price>100</Price>
+  </Bills>
+</billDetails>

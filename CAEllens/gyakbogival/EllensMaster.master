@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="EllensMaster.master.cs" Inherits="EllensMaster" %>
+
+
+ <!DOCTYPE html>
+<html lang="en">
+	<head runat="server">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link runat="server" rel="stylesheet" type="text/css" href="css/reset.css">
+		<link runat="server" rel="stylesheet" type="text/css" href="css/style.css">
+		<link runat="server" rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <link runat="server" rel="icon" type="image/ico" href="img/icon.ico">
+		
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+		
+		<title>Ellen's B&amp;B - <%: Page.Title %></title>
+		
+	</head>
+    <body>
+    <form id="form1" runat="server">
+		  
+        <asp:ContentPlaceHolder id="body" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+        <footer>
+				<ul id="footerMenu">
+					<li><a href="https://www.facebook.com/"><img alt="facebookSign" src="img/social-facebook.png"></a></li>
+					<li><a href="https://ie.linkedin.com/"><img alt="linkedinSign"  src="img/social-linkedin.png"></a></li>
+					<li><a href="https://www.pinterest.com/"><img alt="pinterestSign" src="img/social-pinterest.png"></a></li>
+					<li><a href="https://twitter.com/?lang=en"><img alt="twitterSign"  src="img/social-twitter.png"></a></li>
+					<li>&nbsp;</li>
+					<li><a href="index.aspx">home</a></li>
+					<li><a href="rooms.aspx">prices</a></li>
+					<li><a href="contact.aspx">contact</a></li>
+					<li><a href="faq.aspx">FAQ</a></li>
+					<li><a href="sitemap.aspx">site map</a></li>
+				</ul>
+				
+				<div id="footerCert">
+					<img alt="paymentTypes" id="pLogo" src="img/logo-paymentType.png">
+					<a href="https://www.tripadvisor.ie/"><img alt="Trip Advisor Winner 2015" class="trip" src="img/tripadvisor-2015.png"></a>
+					<a href="https://www.tripadvisor.ie/"><img alt="Trip Advisor Winner 2016" class="trip" src="img/tripadvisor-2016.png"></a>
+					
+				</div>				
+
+			
+			<p>&copy; Ellen's Bed &amp; Breakfast 2017</p>
+			
+		</footer>
+    </form>
+</body>
+    </html>

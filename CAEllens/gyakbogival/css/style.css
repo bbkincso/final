@@ -1,0 +1,921 @@
+﻿body {
+    background: #edf7e1;
+}
+
+nav {
+    top: 0px;
+    height: 110px;
+    width: 100%;
+    background: rgba(255, 255, 255,0.6);
+    position: fixed;
+    overflow: hidden;
+}
+
+    nav ul {
+        padding-top: 60px;
+        padding-bottom:10px;
+        padding-left: 35%;
+    }
+
+    nav li {
+        display: inline;
+    }
+
+a {
+    text-decoration: none;
+    color: #3a7400;
+}
+
+nav li a {
+    color: #001a00;
+    font-size: 110%;
+    font-family: "Century Gothic", Gadget, sans-serif;
+    margin-right: 3%;
+}
+
+li a:hover {
+    color: #306000;
+}
+
+li a.active {
+    color: #306000;
+}
+
+#logopic {
+    margin-top: 12px;
+    margin-left: 10%;
+    height: 70px;
+    position: fixed;
+}
+
+#indexBanner {
+    width: 100%;
+}
+
+#banner {
+    width: 100%;
+}
+
+
+
+
+footer {
+    bottom: 0;
+    height: 300px;
+    width: 100%;
+    background: #edf7e1;
+    clear: both;
+}
+
+#footerMenu {
+    text-align: center;
+    padding-top: 80px;
+}
+
+    #footerMenu li {
+        display: inline;
+    }
+
+    #footerMenu a {
+        color: #001a00;
+        padding-right: 2%;
+        font-size: 100%;
+        font-family: "Century Gothic", Gadget, sans-serif;
+    }
+
+#footerCert {
+    text-align: center;
+    vertical-align: center;
+    padding-top: 20px;
+}
+
+.trip {
+    padding-right: 2%;
+    height: auto;
+    max-width: 6%;
+    min-width: 4%;
+}
+
+#pLogo {
+    height: auto;
+    max-width: 20%;
+    min-width: 15%;
+    opacity: 0.4;
+    filter: Alpha(opacity=40); /* IE8 and earlier */
+}
+
+footer p {
+    text-align: center;
+    padding-top: 40px;
+    font-family: "Century Gothic", Gadget, sans-serif;
+    font-size: 80%;
+}
+
+
+
+
+#welcome {
+    background: white;
+    text-align: center;
+    padding: 3% 5% 8% 5%;
+}
+
+.container {
+    background: #edf7e1;
+}
+
+    .container p, a, h1, h2, h3, h4, h5, h6, li {
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        color: #2e2f30;
+    }
+
+    .container h1 {
+        font-size: 200%;
+        line-height: 350%;
+        color: #001a00;
+    }
+
+    .container h2 {
+        font-size: 180%;
+        font-family: "Century Gothic", Gadget, sans-serif;
+        color: #2d2d1f;
+        padding: 30px 0 10px 10%;
+        color: #2e2f30;
+    }
+
+    .container h3 {
+        font-family: "Century Gothic", Gadget, sans-serif;
+        font-size: 130%;
+        padding: 2% 0 5% 0;
+        color: #616132;
+    }
+
+    .container p, li {
+        font-size: 100%;
+        line-height: 120%;
+        color: #33331a;
+    }
+
+    .container a {
+        color: #6e6e39;
+    }
+
+#welcome p {
+    font-size: 110%;
+    line-height: 150%;
+}
+
+#features {
+    background: #293320;
+    clear: both;
+    padding: 3% 5% 5% 7%;
+    height: 550px;
+}
+
+    #features a {
+        color: #293320;
+    }
+
+#featured-tours, #featured-bed {
+    width: 47%;
+    height: 205px;
+    float: left;
+    background: #f7ffe6;
+    border-radius: 3px;
+    margin: 15px 3% 15px 0;
+    overflow: hidden;
+}
+
+#featured-patio, #featured-breakfast {
+    width: 47%;
+    height: 205px;
+    float: right;
+    background: #f7ffe6;
+    border-radius: 3px;
+    margin: 15px 3% 15px 0;
+    overflow: hidden;
+}
+
+#breakfast-pic, #moher-pic, #galway-pic, #bedroom-pic {
+    float: left;
+    max-width: 35%;
+    min-width: 20%;
+    height: auto;
+    padding: 0.5%;
+    margin-right: 6%;
+    border: 0.5px solid #cccccc;
+    border-radius: 3px;
+}
+
+#features p {
+    font-size: 100%;
+    color: #5b5b3d;
+    padding: 3% 4% 3% 3%;
+}
+
+.featuresHeading {
+    font-family: "Century Gothic", Gadget, sans-serif;
+    font-size: 150%;
+    padding: 4% 4% 0 0;
+    color: #6d6d49;
+}
+
+.moreInfo {
+    clear: both;
+    height: 650px;
+    padding: 5% 8% 0 8%;
+    background: #edf7e1;
+}
+
+#Ellens {
+    width: 30%;
+    height: 550px;
+    float: left;
+    border-radius: 3px;
+    padding: 25px;
+    background: #ffffff;
+    text-align: justify;
+    overflow: hidden;
+}
+
+#Ellens-pic {
+    float: left;
+    padding: 0 5% 5% 2%;
+}
+
+#services {
+    width: 30%;
+    height: 550px;
+    float: left;
+    border-radius: 3px;
+    margin: 0 5% 0 5%;
+    padding: 25px;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+#location {
+    float: right;
+    width: 30%;
+    height: 550px;
+    border-radius: 3px;
+    padding: 25px;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+#moreInfo p {
+    font-size: 90%;
+    text-align: justify;
+    padding: 0 2% 0 3%;
+}
+
+#services li {
+    font-size: 90%;
+    padding: 0 0 4% 3%;
+}
+
+#logopic2 {
+    width: 40%;
+    height: auto;
+    
+}
+
+.trip2 {
+    max-width: 27%;
+    min-width: 50px;
+    height: auto;
+    padding-top: 1%;
+    margin: 1%;
+}
+
+#phone {
+    text-align: center;
+}
+
+
+
+
+
+#about {
+    width: 37%;
+    float: left;
+    margin-left: 10%;
+}
+
+#ellensHouse, #ellensRoom {
+    height: auto;
+    padding: 30px 7% 55px 5%;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+#p1 {
+    font-family: "Century Gothic", Gadget, sans-serif;
+    font-size: 90%;
+}
+
+#ellensHouse-pic, #ellensRoom-pic {
+    float: left;
+    width: 40%;
+    height: auto;
+    padding: 0.5%;
+    margin: 0 6% 4% 0;
+    border: 0.5px solid #cccccc;
+    border-radius: 3px;
+}
+
+#aboutAside {
+    float: right;
+    width: 40%;
+    height: auto;
+    margin-right: 10%;
+    margin-top: 30px;
+}
+
+#morePics {
+    height: auto;
+}
+
+#buffet-pic, #patio-pic {
+    float: right;
+    max-width: 45%;
+    min-width: 20%;
+    height: auto;
+    padding: 0.5%;
+    margin: 0 0 78px 5%;
+    border: 0.5px solid #cccccc;
+    border-radius: 3px;
+}
+
+#galwayCentrePic {
+    width: 100%;
+    height: auto;
+}
+
+#galwayCentre {
+    width: 80%;
+    margin: 100px 0 0 18%;
+    border: 0.5px solid #cccccc;
+    border-radius: 3px;
+    padding: 0.5%;
+} 
+
+.Submit {
+    background-color: #c6ecc6;
+    float: right;
+    font-size: 100%;
+    padding: 0.5% 2% 0.5% 2%;
+    margin-top: 20px;
+    color: #33331a;
+    border-radius: 4px;
+}
+
+#contact {
+    margin: 50px 17% 0 17%;
+    background-color: white;
+    border: 0.5px solid #cccccc;
+    border-radius: 3px;
+    height:320px;
+    padding-top:10px;
+}
+#address {
+    padding-left: 10%;
+}
+#contactForm {
+    height: auto;
+    text-align: center;
+    margin: 40px 4% 10px 4%;
+    padding: 0 5% 0 5%;
+}
+.textbox2{
+   width:75%;
+   margin:9px 0 9px 0;
+   padding:5px 0 5px 0;
+}
+    
+
+.message {
+        width: 75%;
+        margin:30px 0 9px 0;
+        min-height:140px;
+       
+    }
+
+#roomDetails {
+    padding: 30px 0 6% 8%;
+    height: auto;
+}
+
+#roomsp {
+    clear: both;
+    padding: 40px 10% 0 10%;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.columns {
+    float: left;
+    width: 24%;
+    padding: 8px;
+    overflow: hidden;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+    .price:hover {
+        box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+    }
+
+    .price .header {
+        background-color: #c6ecc6;
+        color: #2d2d1f;
+        font-size: 20px;
+    }
+
+    .price li {
+        border-bottom: 1px solid #eee;
+        padding: 5%;
+        text-align: center;
+        font-family: "Century Gothic", Gadget, sans-serif;
+        font-size: 15px;
+        background: white;
+    }
+
+    .price .grey {
+        background-color: #dbf9db;
+        font-size: 20px;
+    }
+
+.columns li a {
+    color: #2d2d1f;
+    font-weight: bold;
+}
+
+#booking{
+    margin:0 10% 0 10%;
+    
+}
+
+#bookingForm1 {
+    width: 48%;
+    float: left;
+    padding-top:15px;
+    height:500px;
+    text-align:center;
+    
+}
+.textbox1{
+    width:75%;
+    margin:10px 0 10px 0;
+    padding:1% 0 1% 0;
+}
+
+#bookingForm2 {
+    width: 48%;
+    float: right;
+    height: auto;
+    height: 500px;
+}
+.label1 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #2e2f30;
+    width:40%; 
+    font-size:105%;
+}
+
+#roomTypes {
+    margin-bottom:20px;
+}
+
+.label2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #2e2f30;
+    padding-right: 25%;
+    width: 40%;
+    font-size: 105%;
+}
+
+.dplist1 {
+    margin-left:2%;
+}
+
+.dplist2 {
+    margin:0 6.5% 0 0.5%;
+}
+
+#cal{
+    width:100%;
+    margin-top:40px;
+}
+
+.calendar1{
+    float:left;
+    width:20%;
+    margin-right:3.5%;
+   
+}
+
+.calendar2{
+    width:20%;
+    padding-left:10%;
+}
+
+.request{
+    width:82%;
+    min-height:85px;
+}
+
+
+#testimonials {
+    height: auto;
+    padding: 30px 0 30px 15%;
+    background: #edf7e1;
+}
+
+    #testimonials p {
+        line-height: 110%;
+        padding: 20px;
+    }
+
+.customerReview {
+    width: 80%;
+    height: auto;
+    background: #ffffff;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.imgLeft {
+    float: left;
+    width: 15%;
+    height: auto;
+    margin: 10px;
+}
+
+.imgRight {
+    float: right;
+    width: 15%;
+    height: auto;
+    margin: 10px;
+}
+
+
+
+
+#FAQ {
+    height: auto;
+    width: 50%;
+    margin: 30px 0 0 10%;
+    padding-bottom: 20px;
+    float: left;
+}
+
+.faqh3 {
+    height: 50px;
+    color: #33331a;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 2%;
+    background: white;
+    overflow: hidden;
+}
+
+    .faqh3:hover {
+        box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+    }
+
+.faq {
+    margin: 15px 0 20px 0;
+    text-align: center;
+}
+
+#faqLocation {
+    float: right;
+    width: 27%;
+    height: 600px;
+    background: white;
+    border-radius: 3px;
+    padding: 25px;
+    overflow: hidden;
+    margin: 30px 5% 0 0;
+}
+
+
+
+
+#Smap {
+    width: 80%;
+    min-height: 650px;
+    height: auto;
+    background: white;
+    border-radius: 3px;
+    margin: 20px 0 0 10%;
+}
+
+#sitemap {
+    float: left;
+    height: auto;
+    margin: 60px 0 0 15%;
+}
+
+    #sitemap p {
+        font-size: 135%;
+        font-family: "Century Gothic", Gadget, sans-serif;
+        color: #2e2f30;
+    }
+
+    #sitemap ul {
+        padding: 40px 0 0 50px;
+        list-style-type: disc;
+    }
+
+    #sitemap li {
+        padding-bottom: 15px;
+    }
+
+        #sitemap li a {
+            font-size: 125%;
+            font-family: "Century Gothic", Gadget, sans-serif;
+            color: #2e2f30;
+        }
+
+#locationSitemap {
+    float: right;
+    width: 27%;
+    height: 550px;
+    border: 0.5px solid #cccccc;
+    border-radius: 3px;
+    padding: 25px;
+    overflow: hidden;
+    margin: 60px 10% 0 0;
+    
+}
+
+#moreInfo2 p {
+    font-size: 90%;
+    text-align: justify;
+    padding: 0 2% 0 3%;
+}
+
+#logopic3 {
+    width: 40%;
+    height: auto;
+    padding:5px 0 10px 0;
+}
+
+.trip3 {
+    max-width: 27%;
+    min-width: 50px;
+    height: auto;
+    padding: 10px 0 15px 0;
+    margin: 1%;
+}
+
+#phone2 {
+    text-align: center;
+}
+
+
+
+
+
+
+#map {
+    padding: 40px 10% 30px 10%;
+}
+
+    #map iframe {
+        width: 100%;
+        margin: auto;
+    }
+
+#Galway {
+    height: auto;
+    width: 100%;
+}
+
+#GalwayText {
+    width: 30%;
+    background: white;
+    font-size: 115%;
+    line-height: 110%;
+    color: #001a00;
+    float: left;
+    padding: 30px 2% 40px 2%;
+    margin: 30px 0 100px 3%;
+    border-radius: 3px;
+}
+
+#touristinfo {
+    float: right;
+    background: white;
+    margin: 30px 0 20px 0;
+    padding: 20px 1.5% 30px 1.5%;
+    margin: 30px 3% 100px 0;
+    border-radius: 3px;
+}
+
+    #touristinfo img {
+        max-width: 100%;
+        height: auto;
+    }
+
+#video {
+    clear: both;
+    background: #293320;
+    width: 100%;
+    margin: auto;
+    padding: 110px 20% 140px 20%;
+}
+
+#descriptions {
+    width: 100%;
+    padding-top: 40px;
+}
+
+#descLeft {
+    width: 41%;
+    height: auto;
+    float: left;
+    margin: 0 2% 20px 7%;
+}
+
+#descRight {
+    width: 41%;
+    float: right;
+    height: auto;
+    margin: 0 7% 20px 2%;
+}
+
+#EyreSquare, #Restaurants, #Beaches, #CoastalWalks,
+#Connemara, #TheAranIslands, #CliffsOfMoher, #Tour {
+    width: 100%;
+    min-height: 170px;
+    height: auto;
+    background: white;
+    border-radius: 3px;
+    margin: 20px 0 0 0;
+    padding: 0 2% 10px 2%;
+}
+
+
+
+
+.desch4 {
+    font-size: 140%;
+    padding: 3% 0 3% 1.5%;
+    font-family: "Century Gothic", Gadget, sans-serif;
+    color: #616132;
+}
+
+#descriptions p {
+    padding: 0 1.5% 2% 1.5%;
+}
+
+#Facilities {
+    clear: both;
+    width: 86%;
+    height: auto;
+    margin: 0 0 50px 7%;
+    border-radius: 3px;
+    background: white;
+}
+
+.sitemapTitle {
+    float: left;
+}
+
+#demo {
+    text-align: center;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+iframe {
+    border: 0;
+}
+
+
+#login {
+    margin: 200px 17% 0 17%;
+    background-color: white;
+    border: 0.5px solid #cccccc;
+    border-radius: 3px;
+    height: 500px;
+    padding: 30px 0 0 0;
+}
+.loginTextbox {
+    width: 50%;
+    margin: 9px 0 9px 0;
+    padding: 5px 0 8px 0;
+}
+#loginBlock {
+    padding:40px 0 0 28%;
+}
+#loginBlock2 {
+    margin:40px 0 10px 0;
+}
+.adminDiv {
+    margin: 200px 15% 0 15%;
+    background-color: white;
+    border: 0.5px solid #cccccc;
+    border-radius: 3px;
+    padding: 50px 0 0 70px;
+    height:auto;
+}
+
+.AdminButton {
+    background-color: #c6ecc6;
+    font-size: 100%;
+    padding: 0.4% 1.5% 0.4% 1.5%;
+    color: #33331a;
+    border-radius: 4px;
+    
+}
+.adminH3{
+    margin-bottom:40px;
+}
+#billGrid{
+    padding-left:50px;
+    padding-bottom:100px;
+}
+#bookingGrid {
+    padding-left: 50px;
+    padding-bottom: 100px;
+}
+#contactGrid {
+    padding-bottom: 100px;
+}
+
+
+
+#bookingBlock {
+    padding:20px 15% 0 5%;
+    height:440px;
+}
+#dpLists {
+    height: 80px;
+    
+}
+#chooseCustomerAndRoom {
+    width: 40%;
+    float: left;
+    margin-bottom:15px;
+}
+
+#adultsChildren {
+    width: 40%;
+    float: right;
+    margin-right: 10%;
+    margin-bottom: 15px;
+}
+#calendars {
+    padding:20px 0 30px 0;
+}
+#cal1{
+    width:50%;
+   float:left;
+}
+
+#cal2 {
+    margin-left:12%;
+}
+#btnNewBooking {
+    float:right;
+    margin-right:9%;
+}
+#custDetailsBlock {
+    width: 85%;
+    margin-top: 50px;
+    height: 380px;
+}
+#search {
+    width: 45%;
+    padding: 0 0 40px 7%;
+    float: right;
+}
+
+#custDetails {
+    width: 50%;
+    float: left;
+}
+#btnnewCust{
+    float:right;
+    margin-right:15%;
+}
+
+
+
